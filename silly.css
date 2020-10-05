@@ -1,0 +1,64 @@
+
+
+ .grid-container     {display: grid;
+ grid-template: 1.6em 1.6em 1.6em / 1fr 1fr 1fr;
+ grid-template: repeat(3, 1.6em) / repeat(3, 1fr);
+ grid-gap: 10px;
+}
+
+
+h1 {
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 300%;
+}
+
+
+h2 {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+  }
+
+.link { color: #FF0000; } /* CSS link color (red) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */
+
+input {
+    width: 90%;
+  }
+
+
+
+  label {
+      font-family: Tahoma, sans-serif;
+  }
+
+
+  body {
+    background-image: url('bees.jpg');
+  } 
+
+  input[type=text], input[type=email] {
+      padding: 2px 2px;
+      margin: 8px 0;
+      border: none;
+      border-bottom: 2px solid red;
+    }
+  
+  input[type=radio] + label {
+      color: purple;
+  }
+  
+  input[type=radio] {
+      width: 20px;
+  }
+  
+  textarea {
+      border: 2px solid purple;
+  }
+  
+  input[type=submit] {
+      background-color: purple;
+      color: white;
+      width: 30%;
+  }
